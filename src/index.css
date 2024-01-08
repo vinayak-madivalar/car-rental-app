@@ -1,0 +1,418 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER Component */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+  align-items: center;
+}
+
+.header-item > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-item > ul > li {
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.logo {
+  width: 120px;
+}
+
+.nav-btn {
+  /* margin: 0 5px; */
+  padding: 15px 25px;
+  border: 0;
+  font-size: 15px;
+}
+
+/* HERO Component */
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 50px;
+  padding: 0 50px;
+}
+
+.hero-text > h1 {
+  margin: 10px 0;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.hero-text > p {
+  margin: 20px 0;
+  font-size: 12px;
+  color: #888;
+}
+
+.hero-btn {
+  margin: 10px 20px 10px 0px;
+  padding: 12px 36px;
+  font-size: 13px;
+  color: white;
+  border: 0;
+  font-weight: 600;
+}
+
+/*BookCar Component*/
+.book-car {
+  align-items: center;
+  margin: 30px;
+  padding: 30px;
+}
+
+.book-car > h3 {
+  margin: 30px 40px;
+}
+
+.book-item > p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 50px 10px 0;
+  justify-content: center;
+}
+
+.book-item {
+  margin: 10px 0px;
+  padding: 0 20px;
+}
+
+.book-input {
+  padding: 10px 120px 10px 5px;
+  border: 0;
+}
+
+.search-btn {
+  margin: 10px 0 10px;
+  padding: 10px 115px;
+  border: 0;
+  font-size: 16px;
+  color: white;
+  background-color: orangered;
+}
+
+/*Info Section*/
+.info-header {
+  display: grid;
+  justify-items: center;
+  margin: 100px 0 20px 0;
+}
+
+.info-header > * {
+  margin: 10px;
+}
+
+.info-header > h3 {
+  font-size: 16px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 40px;
+}
+
+.info-item {
+  margin: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item > p {
+  text-align: center;
+  color: #888;
+}
+
+.info-item > h4 {
+  margin: 40px 50px 20px;
+  font-size: 20px;
+}
+
+.info-img {
+  width: 70px;
+}
+
+/* CarModel Component*/
+.car-heading {
+  text-align: center;
+  margin: 50px;
+}
+
+.car-heading > * {
+  padding: 0.3em 0;
+}
+
+.car-heading > p {
+  padding: 0 20em;
+  color: #888;
+}
+
+.car-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.car-name-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+
+.car-name-btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  background-color: white;
+  text-align: left;
+}
+
+.car-name-btn:focus {
+  background-color: orangered;
+  color: white;
+}
+
+.car-image {
+  width: 600px;
+  height: 400px;
+  margin: 0 20px;
+}
+
+.car-reserve-btn {
+  padding: 15px 48px;
+  margin: 12px 0;
+  border: 0;
+  background-color: orangered;
+  color: white;
+  font-size: 18px;
+}
+
+/*CarDetailsCard*/
+.car-details {
+  display: inline;
+}
+
+.car-details-table > h2 {
+  border: 1px solid #888;
+  padding: 10px 0;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+}
+
+table {
+  border: 1px solid #888;
+}
+
+th {
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 16px;
+  border-bottom: 1px solid #888;
+  background-color: orangered;
+  color: white;
+}
+
+tr {
+  margin: 10px 10px;
+}
+
+td {
+  padding: 10px 30px;
+  /* border-right: 1px solid #888; */
+  border-bottom: 1px solid #888;
+}
+
+/* ChooseUs*/
+.banner {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin: 100px 0 50px 0;
+}
+
+.banner > h1 {
+  margin-bottom: 15px;
+}
+
+.banner-img {
+  width: 100%;
+  margin: 7% 0%;
+}
+
+.info-sec {
+  display: flex;
+}
+
+.info-sec-left {
+  padding: 0 0 0 100px;
+  margin: 0 50px;
+  width: 50%;
+}
+
+.info-sec-right {
+  margin: 0 100px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+
+.info-sec-left > * {
+  padding: 8px;
+}
+
+.info-sec-left > p {
+  color: #888;
+}
+
+.find-details-btn {
+  margin: 20px 8px;
+  padding: 12px 30px;
+  background-color: orangered;
+  color: white;
+  border: 0;
+  font-size: 16px;
+}
+
+.images {
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.img-set {
+  width: 100px;
+  padding: 0 20px;
+}
+
+.para-item {
+  color: #888;
+  margin-top: 10px;
+}
+
+/* Testimonial Component*/
+.test-header {
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.test-header > h1 {
+  padding: 5px 0 10px 0;
+}
+
+.test-header > p {
+  padding: 10px 200px;
+  color: #888;
+}
+
+/* ReviewCard Component*/
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  justify-content: center;
+}
+
+.review-card {
+  border: 1px solid #888;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.review-card > * {
+  padding: 10px 10px 0 10px;
+}
+
+.review-card > h6 {
+  padding: 5px 10px 10px 10px;
+  font-size: 12px;
+}
+
+.review-card > p {
+  color: #444;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/*Faq Component*/
+.faq-header {
+  text-align: center;
+  margin: 100px;
+}
+
+.faq-header > p {
+  margin: 20px 0;
+  padding: 0 175px;
+  color: #888;
+}
+
+.drop-down {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+details {
+  margin: 0 220px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, -0.8);
+}
+
+details > summary {
+  padding: 20px 48px;
+  list-style: none;
+  cursor: pointer;
+}
+
+details[open] {
+  margin: 0 220px;
+}
+
+details[open] summary {
+  background-color: orangered;
+  color: white;
+}
+
+details[open] summary > p {
+  background-color: white;
+  color: #888;
+}
+
+details > p {
+  padding: 30px;
+  color: #888;
+}
