@@ -4,7 +4,7 @@ import car1 from "../assets/car_1.png";
 
 const InfoSection = () => {
   return (
-    <div className="info-section">
+    <div className="info-section" id="info">
       <div className="info-header">
         <h3>Plan your trip now</h3>
         <h1>Quick & easy car rental</h1>

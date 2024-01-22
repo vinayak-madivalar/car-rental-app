@@ -35,7 +35,7 @@ const CarModel = () => {
   };
 
   return (
-    <div className="car-model">
+    <div className="car-model" id="vehical">
       <div className="car-heading">
         <h3>Vehical Models</h3>
         <h1>Our Rental Fleet</h1>
@@ -71,13 +71,15 @@ const CarModel = () => {
             />
           )}
         </div>
-        <div>
+        <div className="car-info">
           {selectedCar === "" ? (
             <CarDetailCard carData={carList[0]} />
           ) : (
             <CarDetailCard carData={selectedCar} />
           )}
-          <button className="car-reserve-btn">RESERVE NOW</button>
+          <a href="#book">
+            <button className="car-reserve-btn">RESERVE NOW</button>
+          </a>
         </div>
       </div>
       <div></div>

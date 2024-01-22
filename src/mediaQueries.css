@@ -1,0 +1,293 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header-item,
+  .header-btn {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+  .menu-content {
+    width: auto;
+    left: -2rem;
+  }
+
+  .menu-content a {
+    margin: 1rem;
+  }
+
+  .hamburger-menu.open .menu-content {
+    display: block; /* Show the menu when the hamburger icon is clicked */
+  }
+
+  .hamburger-menu.open .overlay {
+    display: block; /* Show the overlay when the menu is open */
+  }
+
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    padding-left: 0;
+  }
+
+  .hero-image {
+    width: 500px;
+  }
+
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-item {
+    margin: 2rem;
+  }
+
+  .car-heading > p {
+    padding: 0;
+  }
+
+  .car-name {
+    flex-direction: column;
+  }
+
+  .info-sec {
+    flex-direction: column;
+  }
+
+  .info-sec-left {
+    padding-left: 0;
+    width: 80%;
+  }
+
+  .info-sec-right {
+    width: 80%;
+    margin: 0 3rem;
+  }
+
+  .test-header > p {
+    padding: 0;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .contact-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .copyright {
+    margin: 1.25rem 2.25rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header-item,
+  .header-btn {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+  .menu-content {
+    width: auto;
+    left: -4rem;
+  }
+
+  .menu-content a {
+    margin: 1rem;
+  }
+
+  .hamburger-menu.open .menu-content {
+    display: block; /* Show the menu when the hamburger icon is clicked */
+  }
+
+  .hamburger-menu.open .overlay {
+    display: block; /* Show the overlay when the menu is open */
+  }
+
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    padding-left: 0;
+  }
+
+  .hero-image {
+    width: 500px;
+  }
+
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-item {
+    margin: 2rem;
+  }
+
+  .car-heading > p {
+    padding: 0;
+  }
+
+  .car-name {
+    flex-direction: column;
+  }
+
+  .info-sec {
+    flex-direction: column;
+  }
+
+  .info-sec-left {
+    padding-left: 0;
+    width: 80%;
+  }
+
+  .info-sec-right {
+    width: 80%;
+    margin: 0 3rem;
+  }
+
+  .test-header > p {
+    padding: 0;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .contact-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .copyright {
+    margin: 1.25rem 2.25rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media (max-width: 992px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header-item,
+  .header-btn {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+  .menu-content {
+    width: auto;
+    left: -6rem;
+  }
+
+  .menu-content a {
+    margin: 1rem;
+  }
+
+  .hamburger-menu.open .menu-content {
+    display: block; /* Show the menu when the hamburger icon is clicked */
+  }
+
+  .hamburger-menu.open .overlay {
+    display: block; /* Show the overlay when the menu is open */
+  }
+
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    padding-left: 0;
+  }
+
+  .hero-image {
+    width: 500px;
+  }
+
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-item {
+    margin: 2rem;
+  }
+
+  .car-heading > p {
+    padding: 0;
+  }
+
+  .car-name {
+    flex-direction: column;
+  }
+
+  .info-sec {
+    flex-direction: column;
+  }
+
+  .info-sec-left {
+    padding-left: 0;
+    width: 80%;
+  }
+
+  .info-sec-right {
+    width: 80%;
+    margin: 0 3rem;
+  }
+
+  .test-header > p {
+    padding: 0;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .contact-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .copyright {
+    margin: 1.25rem 2.25rem;
+  }
+}

@@ -1,4 +1,5 @@
 import logo from "../assets/logo_CR_1.png";
+import HamBurgerMenu from "./HamBurgerMenu";
 
 const Header = () => {
   return (
@@ -6,27 +7,46 @@ const Header = () => {
       <div>
         <img src={logo} alt="logo" className="logo" />
       </div>
-      <div className="header-item">
+      <div className={`header-item  `}>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Vehical Models</li>
-          <li>Testominals</li>
-          <li>FAQ</li>
-          <li>Contact</li>
+          <li>
+            <a href="#home" className="nav-link">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" className="nav-link">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#vehical" className="nav-link">
+              Vehical Models
+            </a>
+          </li>
+          <li>
+            <a href="#review" className="nav-link">
+              Testominals
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="nav-link">
+              Contact
+            </a>
+          </li>
         </ul>
       </div>
       <div className="header-btn">
-        <button className="nav-btn" style={{ backgroundColor: "white" }}>
-          Sign In
-        </button>
-        <button
-          className="nav-btn"
-          style={{ backgroundColor: "orangered", color: "white" }}
-        >
-          Register
-        </button>
+        <a href="#footer">
+          <button
+            className="nav-btn"
+            style={{ backgroundColor: "orangered", color: "white" }}
+          >
+            Download App
+          </button>
+        </a>
       </div>
+      <HamBurgerMenu />
     </div>
   );
 };

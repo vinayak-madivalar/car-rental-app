@@ -2,7 +2,7 @@ import car from "../assets/car.jpg";
 
 const Hero = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="home">
       <div className="hero-text">
         <h3>Plan your trip now</h3>
         <h1>
@@ -14,16 +14,23 @@ const Hero = () => {
           flexible pick-up options and much more.
         </p>
         <div>
-          <button className="hero-btn" style={{ backgroundColor: "orangered" }}>
-            Book Ride{" "}
-          </button>
-          <button className="hero-btn" style={{ backgroundColor: "black" }}>
-            Learn More{" "}
-          </button>
+          <a href="#book">
+            <button
+              className="hero-btn"
+              style={{ backgroundColor: "orangered" }}
+            >
+              Book Ride
+            </button>
+          </a>
+          <a href="#info">
+            <button className="hero-btn" style={{ backgroundColor: "black" }}>
+              Learn More{" "}
+            </button>
+          </a>
         </div>
       </div>
       <div>
-        <img src={car} alt="car-img" width={700} />
+        <img src={car} alt="car-img" className="hero-image" />
       </div>
     </div>
   );

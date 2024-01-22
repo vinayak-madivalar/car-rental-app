@@ -3,7 +3,7 @@ import ReviewCard from "./ReviewCard";
 
 const Testimonial = () => {
   return (
-    <div>
+    <div id="review">
       <div className="test-header">
         <h4>Reviewed by people</h4>
         <h1>Client{"'"}s Testimonials</h1>

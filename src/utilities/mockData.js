@@ -82,13 +82,13 @@ export const customer_reviews = [
     review:
       "I recently rented a car using the app, and I am impressed with the quality of service. The car was clean, well-maintained, and the entire rental process was efficient.",
   },
-  {
-    id: 3,
-    name: "Carlos Rodriguez",
-    town: "Delhi",
-    review:
-      "Using the car rental app in Delhi was a breeze. The vehicle was in excellent condition, and the entire process, from booking to returning the car, was smooth.",
-  },
+  // {
+  //   id: 3,
+  //   name: "Carlos Rodriguez",
+  //   town: "Delhi",
+  //   review:
+  //     "Using the car rental app in Delhi was a breeze. The vehicle was in excellent condition, and the entire process, from booking to returning the car, was smooth.",
+  // },
 ];
 
 export default cars;
