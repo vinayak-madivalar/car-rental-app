@@ -75,14 +75,14 @@
   margin: 0.6rem 0;
   font-size: 2.75rem;
   font-weight: bold;
-  width: 25rem;
+  max-width: 25rem;
 }
 
 .hero-text > p {
   margin: 1.25rem 0;
   font-size: 0.75rem;
   color: #888;
-  width: 25rem;
+  max-width: 25rem;
 }
 
 .hero-btn {

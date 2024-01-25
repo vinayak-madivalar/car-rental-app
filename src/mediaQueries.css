@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media (min-width: 400px) and (max-width: 450px) {
+@media (min-width: 300px) and (max-width: 450px) {
   .header {
     justify-content: space-between;
   }
@@ -36,11 +36,20 @@
 
   .hero-text {
     padding-left: 0;
+    margin: 0;
     text-align: center;
   }
 
   .hero-image {
     display: none;
+  }
+
+  .book-input {
+    padding: 0.6rem 3.5rem 0.6rem 0;
+  }
+
+  .info-header > h1 {
+    text-align: center;
   }
 
   .info-container {
@@ -60,6 +69,10 @@
     flex-direction: column;
   }
 
+  .car-image {
+    margin: 0;
+  }
+
   .banner-img {
     max-width: 100%;
   }
@@ -71,6 +84,8 @@
   .info-sec-left {
     padding-left: 0;
     width: 80%;
+    display: flex;
+    flex-direction: column;
   }
 
   .info-sec-right {
