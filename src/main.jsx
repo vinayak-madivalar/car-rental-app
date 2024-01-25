@@ -10,6 +10,7 @@ import CarModel from "./components/CarModel.jsx";
 import ChooseUs from "./components/ChooseUs.jsx";
 import Testimonial from "./components/Testimonial.jsx";
 import Footer from "./components/Footer.jsx";
+import Download from "./components/Download.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <CarModel />
     <ChooseUs />
     <Testimonial />
+    <Download />
     <Footer />
   </React.StrictMode>
 );

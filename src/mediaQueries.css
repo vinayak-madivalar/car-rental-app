@@ -1,4 +1,122 @@
 /* Extra small devices (phones, 600px and down) */
+@media (min-width: 400px) and (max-width: 450px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header-item,
+  .header-btn {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+  .menu-content {
+    width: auto;
+    left: -2rem;
+  }
+
+  .menu-content a {
+    margin: 1rem;
+  }
+
+  .hamburger-menu.open .menu-content {
+    display: block; /* Show the menu when the hamburger icon is clicked */
+  }
+
+  .hamburger-menu.open .overlay {
+    display: block; /* Show the overlay when the menu is open */
+  }
+
+  .hero-section {
+    flex-direction: column;
+    margin: 5rem 0;
+  }
+
+  .hero-text {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-item {
+    margin: 2rem;
+  }
+
+  .car-heading > p {
+    padding: 0;
+  }
+
+  .car-name {
+    flex-direction: column;
+  }
+
+  .banner-img {
+    max-width: 100%;
+  }
+
+  .info-sec {
+    flex-direction: column;
+  }
+
+  .info-sec-left {
+    padding-left: 0;
+    width: 80%;
+  }
+
+  .info-sec-right {
+    width: 80%;
+    margin: 0 3rem;
+  }
+
+  .images {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .test-header {
+    margin: 3rem;
+    padding: 0;
+  }
+
+  .test-header > p {
+    padding: 0;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .contact-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .contact-item {
+    padding: 2rem;
+  }
+
+  .copyright {
+    margin: 1.25rem 2.25rem;
+  }
+}
+
 @media (max-width: 600px) {
   .header {
     justify-content: space-between;
@@ -31,14 +149,16 @@
 
   .hero-section {
     flex-direction: column;
+    margin: 5rem 0;
   }
 
   .hero-text {
     padding-left: 0;
+    text-align: center;
   }
 
   .hero-image {
-    width: 500px;
+    display: none;
   }
 
   .info-container {
@@ -58,6 +178,10 @@
     flex-direction: column;
   }
 
+  .banner-img {
+    max-width: 100%;
+  }
+
   .info-sec {
     flex-direction: column;
   }
@@ -70,6 +194,17 @@
   .info-sec-right {
     width: 80%;
     margin: 0 3rem;
+  }
+
+  .images {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .test-header {
+    margin: 3rem;
+    padding: 0;
   }
 
   .test-header > p {
@@ -89,6 +224,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
+  }
+
+  .contact-item {
+    padding: 2rem;
   }
 
   .copyright {
