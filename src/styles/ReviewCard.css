@@ -1,0 +1,38 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.review-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  padding: 1.6rem;
+  width: 28.75rem;
+  font-size: large;
+}
+
+.review-card > * {
+  padding: 0.6rem;
+}
+
+.review-card > p {
+  color: #444;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  width: 2.5rem;
+  margin-right: 0.6rem;
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+  .review-card {
+    width: 20rem;
+    font-size: medium;
+  }
+}

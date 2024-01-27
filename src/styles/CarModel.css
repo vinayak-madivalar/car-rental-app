@@ -1,0 +1,82 @@
+.car-heading {
+  text-align: center;
+  margin: 3rem;
+}
+
+.car-heading > * {
+  padding: 0.1em 0;
+}
+
+.car-heading > p {
+  padding: 0 20em;
+  color: #888;
+}
+
+.car-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.car-name-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.25rem;
+}
+
+.car-name-btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 0;
+  text-align: left;
+  margin-bottom: 0.3rem;
+}
+
+.car-name-btn:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.car-name-btn:focus {
+  background-color: orangered;
+  color: white;
+}
+
+.car-image {
+  width: 600px;
+  height: 400px;
+  max-width: 100%;
+  margin: 0 1.25rem;
+}
+
+.car-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-reserve-btn {
+  padding: 1rem 3rem;
+  margin: 0.75rem 0;
+  border: 0;
+  background-color: orangered;
+  color: white;
+  font-size: 1.125rem;
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+  .car-image {
+    margin: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .car-heading > p {
+    padding: 0;
+  }
+
+  .car-name {
+    flex-direction: column;
+  }
+}

@@ -1,4 +1,5 @@
 import user from "../assets/user.png";
+import "../styles/ReviewCard.css";
 
 const ReviewCard = (props) => {
   const { reviewData } = props;

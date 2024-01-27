@@ -1,8 +1,9 @@
 import car from "../assets/car.jpg";
+import "../styles/Hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero-section" id="home">
+    <div className="hero-section">
       <div className="hero-text">
         <h3>Plan your trip now</h3>
         <h1>

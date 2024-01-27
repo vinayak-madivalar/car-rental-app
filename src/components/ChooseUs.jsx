@@ -2,10 +2,11 @@ import jeep from "../assets/cars.png";
 import car from "../assets/new-car.png";
 import dollar from "../assets/dollar.png";
 import charge from "../assets/reward.png";
+import "../styles/ChooseUs.css";
 
 const ChooseUs = () => {
   return (
-    <div id="about">
+    <div>
       <div className="banner">
         <h1>Save big with our cheap rental car deals</h1>
         <p>

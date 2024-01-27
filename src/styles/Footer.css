@@ -1,0 +1,69 @@
+.contact-wrap {
+  background-color: antiquewhite;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  /* background-color: black;
+    color: white; */
+}
+
+.contact-item {
+  padding: 3rem;
+}
+
+.contact-item > * {
+  margin-bottom: 0.6rem;
+}
+
+.contact-item > p {
+  font-size: 0.87rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.contact-item > button {
+  padding: 0.75rem 4rem;
+  background-color: orangered;
+  color: white;
+  border: 0;
+  display: block;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+}
+
+.contact-item > input {
+  padding: 0.6rem 1.25rem;
+  border: 1px solid;
+  margin: 0.6rem 0;
+  border-radius: 0.3rem;
+}
+
+.copyright {
+  text-align: center;
+  margin: 0 7.25rem;
+  padding: 1.25rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .contact-item {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .copyright {
+    margin: 0 2.25rem;
+  }
+}

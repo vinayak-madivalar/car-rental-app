@@ -1,12 +1,13 @@
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
+import "../styles/Footer.css";
 
 const currYear = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <div>
-      <div className="contact-container" id="contact">
+    <div className="contact-wrap">
+      <div className="contact-container">
         <div className="contact-item">
           <h3>CAR RENTAL</h3>
           <p style={{ color: "gray" }}>
@@ -21,7 +22,7 @@ const Footer = () => {
           </p>
           <p>
             <MdEmail />
-            <strong>carrental@gmail.com</strong>
+            <strong>carent@gmail.com</strong>
           </p>
         </div>
         <div className="contact-item">
@@ -38,7 +39,10 @@ const Footer = () => {
           <p>Sat: 9:00AM to 7:00PM</p>
           <p>Sun: Closed</p>
         </div>
-        <div className="contact-item">
+        <div
+          className="contact-item"
+          style={{ display: "flex", flexDirection: "column" }}
+        >
           <h3>NEWSLETTER</h3>
           <p>
             Subscribe your Email address <br />

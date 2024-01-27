@@ -7,6 +7,7 @@ import thar from "../assets/carImgs/thar.jpg";
 import nexon from "../assets/carImgs/nexon.jpg";
 import hector from "../assets/carImgs/hector.jpg";
 import bmw from "../assets/carImgs/bmw.png";
+import "../styles/CarModel.css";
 
 const CarModel = () => {
   const [carList] = useState(cars);
@@ -35,7 +36,7 @@ const CarModel = () => {
   };
 
   return (
-    <div className="car-model" id="vehical">
+    <div className="car-model">
       <div className="car-heading">
         <h3>Vehical Models</h3>
         <h1>Our Rental Fleet</h1>

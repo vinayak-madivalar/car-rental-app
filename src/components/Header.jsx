@@ -1,5 +1,7 @@
 import logo from "../assets/logo_CR_1.png";
 import HamBurgerMenu from "./HamBurgerMenu";
+import { Link } from "react-router-dom";
+import "../styles/Header.css";
 
 const Header = () => {
   return (
@@ -10,41 +12,35 @@ const Header = () => {
       <div className={`header-item  `}>
         <ul>
           <li>
-            <a href="#home" className="nav-link">
+            <Link to={"/"} className="nav-link">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#about" className="nav-link">
+            <Link to={"/about"} className="nav-link">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#vehical" className="nav-link">
-              Vehical Models
-            </a>
+            <Link to={"/car-models"} className="nav-link">
+              Car Models
+            </Link>
           </li>
           <li>
-            <a href="#review" className="nav-link">
+            <Link to={"/testimonials"} className="nav-link">
               Testominals
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#contact" className="nav-link">
+            <Link to={"/contactus"} className="nav-link">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
       <div className="header-btn">
-        <a href="#footer">
-          <button
-            className="nav-btn"
-            style={{ backgroundColor: "orangered", color: "white" }}
-          >
-            Download App
-          </button>
-        </a>
+        <button className="nav-btn-sign-in">Sign In</button>
+        <button className="nav-btn-register">Register</button>
       </div>
       <HamBurgerMenu />
     </div>

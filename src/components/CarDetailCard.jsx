@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+import "../styles/CarDetailCard.css";
+
 const CarDetailCard = (props) => {
   const { carData } = props;
   const { year, model, doors, fuel, ac, rate } = carData;

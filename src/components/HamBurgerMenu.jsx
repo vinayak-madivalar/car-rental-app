@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
-import "./HamBurgerMenu.css";
+import "../styles/HamBurgerMenu.css";
+import { Link } from "react-router-dom";
 
 const HamBurgerMenu = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -21,11 +22,11 @@ const HamBurgerMenu = () => {
       </div>
       {isMenuOpen && <div className="overlay" onClick={closeMenu}></div>}
       <div className="menu-content" onClick={closeMenu}>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#vehical">Car Models</a>
-        <a href="#review">Reviews</a>
-        <a href="#contact">Contact</a>
+        <Link to={"/"}>Home</Link>
+        <Link to={"/about"}>About</Link>
+        <Link to={"/car-models"}>Car Models</Link>
+        <Link to={"/testimonials"}>Reviews</Link>
+        <Link to={"/contactus"}>Contact</Link>
       </div>
     </div>
   );

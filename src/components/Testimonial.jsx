@@ -1,9 +1,10 @@
 import { customer_reviews } from "../utilities/mockData";
 import ReviewCard from "./ReviewCard";
+import "../styles/Testimonial.css";
 
 const Testimonial = () => {
   return (
-    <div id="review">
+    <div>
       <div className="test-header">
         <h4>Reviewed by people</h4>
         <h1>Client{"'"}s Testimonials</h1>

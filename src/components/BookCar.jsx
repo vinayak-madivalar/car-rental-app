@@ -2,6 +2,7 @@ import { FaRegCalendarDays } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaCar } from "react-icons/fa";
 import BookingDetails from "./BookingDetails";
+import "../styles/BookCar.css";
 
 const BookCar = () => {
   const handler = () => {

@@ -1,5 +1,6 @@
 import { FaApple } from "react-icons/fa";
 import playStore from "../assets/google-play.png";
+import "../styles/Download.css";
 
 const AppDownload = () => {
   const openGooglePlay = () => {
@@ -11,7 +12,7 @@ const AppDownload = () => {
   };
 
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem" }}>
       <button className="app-btn" onClick={openGooglePlay}>
         <div>
           <img src={playStore} alt="" width={30} />

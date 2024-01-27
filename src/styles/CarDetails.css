@@ -1,0 +1,74 @@
+.car-card-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem;
+  margin-bottom: 5rem;
+}
+
+.car-detail-wrap {
+  border-radius: 1rem;
+  margin: 2rem;
+  width: 20rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.car-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: antiquewhite;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5rem;
+  padding-top: 1rem;
+}
+
+.details > span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px dashed;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.rent-btn {
+  background-color: orangered;
+  color: white;
+  border: 0;
+  padding: 0 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .car-card-wrap {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+  .car-card-wrap {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .car-card-wrap {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+  }
+}

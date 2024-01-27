@@ -1,10 +1,11 @@
 import mobile from "../assets/mobile.png";
 import AppDownload from "./AppDownload";
+import "../styles/Download.css";
 
 const Download = () => {
   return (
     <div>
-      <div className="footer-container" id="footer">
+      <div className="footer-container">
         <div className="footer-item">
           <h1>Download our app to get most out of it</h1>
           <p>

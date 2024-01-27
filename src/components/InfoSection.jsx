@@ -1,6 +1,7 @@
 import protection from "../assets/car.png";
 import custom from "../assets/online-service.png";
 import car1 from "../assets/car_1.png";
+import "../styles/InfoSection.css";
 
 const InfoSection = () => {
   return (
