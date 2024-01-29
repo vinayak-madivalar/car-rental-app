@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import "./mediaQueries.css";
 import Home from "./pages/Home.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import CarDetails from "./pages/CarDetails.jsx";
 import ContactUs from "./pages/ContactUs.jsx";
 import Reviews from "./pages/Reviews.jsx";
 import Header from "./components/Header.jsx";
+import Error from "./components/Error.jsx";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 const Applayout = () => {
@@ -23,6 +23,7 @@ const appRoute = createBrowserRouter([
   {
     path: "/",
     element: <Applayout />,
+    errorElement: <Error />,
     children: [
       {
         path: "/",

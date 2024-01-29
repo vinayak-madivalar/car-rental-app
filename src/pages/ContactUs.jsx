@@ -41,7 +41,6 @@ const ContactUs = () => {
             <label>
               Ask Your Doubts <b>*</b>
             </label>
-            {/* <input type="text" placeholder="write here..." /> */}
             <textarea placeholder="write here..." />
             <button type="submit">Send Message</button>
           </form>
