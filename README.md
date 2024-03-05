@@ -1,8 +1,16 @@
-# React + Vite
+# About Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Introducing Carent, a car rental app which simplifies the process of renting vehicles for personal or business use. Offering a user-friendly interface, it enables seamless searching, comparison, and reservation of cars from a diverse range of options, including various makes, models, sizes, and prices.
 
-Currently, two official plugins are available:
+###👉 Live Demo: [Live Demo](https://carent-one.vercel.app/) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Build with:
+
+### » React JS
+### » Vanilla CSS 
+
+# Screenshot Of the Project 📸
+
+### Home Page 🏡
+
+![Uploading home_page.png…]()
