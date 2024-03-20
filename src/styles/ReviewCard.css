@@ -10,6 +10,7 @@
   padding: 1.6rem;
   width: 28.75rem;
   font-size: large;
+  border-radius: 0.5rem;
 }
 
 .review-card > * {
