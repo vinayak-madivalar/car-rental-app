@@ -101,6 +101,11 @@ const BookCar = () => {
     }
   }, [openDetails]);
 
+  const minDate = () => {
+    const today = new Date().toISOString().split("T")[0];
+    return today;
+  };
+
   return (
     <div className="book-car" id="book">
       <div
@@ -188,6 +193,7 @@ const BookCar = () => {
           </label>
           <input
             type="date"
+            min={minDate()}
             className="book-input"
             name="pickTime"
             value={formData.pickTime}
@@ -201,6 +207,7 @@ const BookCar = () => {
           </label>
           <input
             type="date"
+            min={minDate()}
             className="book-input"
             name="dropTime"
             value={formData.dropTime}
